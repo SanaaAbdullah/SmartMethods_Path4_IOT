@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="Robot_Controller_style.css">
+	<title>Robot Controller</title>
+</head>
+
+<body>
+	<h1>Robot Controller</h1>
+
+	<img src="web_images/Controller.png" id="imageConreller" usemap="#workmap">
+
+	<map name="workmap">
+  		<area shape="rect" coords="167, 262, 224, 317" id="up" onclick="changeImage(id)">
+  		<area shape="rect" coords="167, 384, 224, 437" id="down" onclick="changeImage(id)">
+  		<area shape="rect" coords="109, 319, 161, 378" id="left" onclick="changeImage(id)">
+  		<area shape="rect" coords="229, 319, 283, 378" id="right" onclick="changeImage(id)">
+		<area shape="circle" coords="195, 350, 27" id="center" onclick="changeImage(id)">
+	</map>
+
+
+	<script language="javascript">
+		
+		function changeImage(name)
+		{
+			if (name == "up") 
+			{
+				document.getElementById("imageConreller").src = "web_images/ControllerUp.png";
+			}
+
+			else if (name == "down")
+			{
+			    document.getElementById("imageConreller").src = "web_images/ControllerDown.png";
+			}
+
+			else if (name == "left")
+			{
+			    document.getElementById("imageConreller").src = "web_images/ControllerLeft.png";			
+			}
+
+
+			else if (name == "right")
+			{
+			    document.getElementById("imageConreller").src = "web_images/ControllerRight.png";
+			}
+
+
+			else if (name == "center")
+			{
+			    document.getElementById("imageConreller").src = "web_images/Controller.png";			
+			}
+		}
+		
+	</script>
+
+</body>
+
+</html>
