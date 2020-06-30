@@ -1,0 +1,139 @@
+body
+{
+	background-image: url("web_images/Background.jpg");
+}
+
+h1
+{
+	font-size: 300%;
+  margin-top: 4%;
+	color: white;
+	text-align: center;
+}
+
+.container
+{
+  position: relative;
+}
+
+.container .Forward
+{
+  position: absolute;
+  top: 46%;
+  left: 48.6%;
+
+  height: 55px;
+  width: 55px; 
+
+  background-color: transparent;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.container .Back
+{
+  position: absolute;
+  top: 67%;
+  left: 48.6%;
+
+  height: 55px;
+  width: 55px; 
+
+  background-color: transparent;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.container .Left
+{
+  position: absolute;
+  top: 56.3%;
+  left: 44.5%;
+
+  height: 55px;
+  width: 55px; 
+
+  background-color: transparent;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.container .Right
+{
+  position: absolute;
+  top: 56.3%;
+  left: 52.7%;
+
+  height: 55px;
+  width: 55px; 
+
+  background-color: transparent;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.stop
+{
+  position: absolute;
+  width: 62.2px;
+  height: 62px;
+  background: red;
+  border-radius: 50%;
+  top: 56.2%;
+  left: 48.3%;
+  border: none;
+}
+
+
+.button:hover
+{
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.stop:hover
+{
+  background: rgb(255, 98, 98);  
+}
+
+.backC
+{
+  background-color: #d0addb;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.backC:hover
+{
+  background-color: #c034eb;
+  color: white;
+}
+
+.container2
+{
+  margin-top: 5%;
+  text-align: center;
+}
+
+.button2
+{
+  text-align: center;
+  margin-top: 6%;
+}
+
+#imageConreller
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  width: 25%;
+}
