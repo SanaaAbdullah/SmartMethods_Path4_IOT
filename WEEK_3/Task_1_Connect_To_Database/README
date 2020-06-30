@@ -1,0 +1,5 @@
+This folder contains the first Task of week 3 of the Internet Of Things path in Smart Methods company's summer training.
+
+The task is: Creating HTML page contains a controller for the robot to allow the robot to move right, left, forward, backwardm and stop.
+If you click on any button of the controller it will take you to a php page which will save the the button letter (R, L, F, B, S) into
+the database and print it to the user.
